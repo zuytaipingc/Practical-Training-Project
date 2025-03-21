@@ -1,0 +1,323 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 502848122.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1df8da7a]
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==>  Preparing: SELECT * FROM tb_user
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList - <==      Total: 15
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 741669172.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2c34f934]
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==>  Preparing: SELECT * FROM tb_user
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2c34f934]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2c34f934]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 741669172 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 741669172.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2c34f934]
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==>  Preparing: SELECT * FROM tb_user
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2c34f934]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2c34f934]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 741669172 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 927327686.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3745e5c6]
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==>  Preparing: SELECT * FROM tb_user
+DEBUG main com.css0115.dao.UserMapper.getUserList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3745e5c6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3745e5c6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 927327686 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 592617454.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23529fee]
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==>  Preparing: SELECT * FROM tb_user_info WHERE userName like CONCAT ('%',?,'%')
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==> Parameters: null
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23529fee]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23529fee]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 592617454 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 510854293.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==>  Preparing: SELECT * FROM tb_user_info
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 510854293 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 510854293.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==>  Preparing: SELECT * FROM tb_user_info
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 510854293 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 510854293.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==>  Preparing: SELECT * FROM tb_user_info
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e730495]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 510854293 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 592617454.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23529fee]
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==>  Preparing: SELECT * FROM tb_user_info
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserInfoList - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23529fee]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23529fee]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 592617454 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 315932542.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main com.css0115.dao.UserMapper.findUserListByUserName - ==>  Preparing: SELECT * FROM tb_user WHERE userName like CONCAT ('%',?,'%')
+DEBUG main com.css0115.dao.UserMapper.findUserListByUserName - ==> Parameters: 三(String)
+DEBUG main com.css0115.dao.UserMapper.findUserListByUserName - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 315932542 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 315932542.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main com.css0115.dao.UserMapper.findUserListByObject - ==>  Preparing: SELECT * FROM tb_user WHERE userName like CONCAT ('%',?,'%') and userRole = ?
+DEBUG main com.css0115.dao.UserMapper.findUserListByObject - ==> Parameters: 赵(String), 3(Integer)
+DEBUG main com.css0115.dao.UserMapper.findUserListByObject - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 315932542 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1277009227.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4c1d9d4b]
+DEBUG main com.css0115.dao.UserMapper.findUserListByMap - ==>  Preparing: SELECT * FROM tb_user WHERE userName like CONCAT ('%',?,'%') and userRole = ?
+DEBUG main com.css0115.dao.UserMapper.findUserListByMap - ==> Parameters: 赵(String), 3(String)
+DEBUG main com.css0115.dao.UserMapper.findUserListByMap - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4c1d9d4b]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4c1d9d4b]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1277009227 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 315932542.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main com.css0115.dao.UserMapper.findUserListByAnnotation - ==>  Preparing: SELECT * FROM tb_user WHERE userName like CONCAT ('%',?,'%') and userRole = ?
+DEBUG main com.css0115.dao.UserMapper.findUserListByAnnotation - ==> Parameters: 赵(String), 3(Integer)
+DEBUG main com.css0115.dao.UserMapper.findUserListByAnnotation - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 315932542 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 315932542.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main com.css0115.dao.UserMapper.findUserListByObject - ==>  Preparing: SELECT * FROM tb_user WHERE userName like CONCAT ('%',?,'%') and userRole = ?
+DEBUG main com.css0115.dao.UserMapper.findUserListByObject - ==> Parameters: 赵(String), 3(Integer)
+DEBUG main com.css0115.dao.UserMapper.findUserListByObject - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@12d4bf7e]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 315932542 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 990355670.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - ==>  Preparing: SELECT u.*, r.roleName userRoleName FROM tb_user u,tb_role r WHERE u.userRole = r.id
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 990355670 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 990355670.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - ==>  Preparing: SELECT u.*, r.roleName userRoleName FROM tb_user u,tb_role r WHERE u.userRole = r.id
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3b07a0d6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 990355670 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1708570683.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main com.css0115.dao.UserMapper.getUserList2 - ==>  Preparing: SELECT u.*,r.roleName FROM tb_user u,tb_role r WHERE u.userRole = r.id
+DEBUG main com.css0115.dao.UserMapper.getUserList2 - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList2 - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1708570683 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1708570683.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - ==>  Preparing: SELECT u.*, r.roleName userRoleName FROM tb_user u,tb_role r WHERE u.userRole = r.id
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList1 - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1708570683 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.UserInfo matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1708570683.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main com.css0115.dao.UserMapper.getUserList2 - ==>  Preparing: SELECT u.*,r.roleName FROM tb_user u,tb_role r WHERE u.userRole = r.id
+DEBUG main com.css0115.dao.UserMapper.getUserList2 - ==> Parameters: 
+DEBUG main com.css0115.dao.UserMapper.getUserList2 - <==      Total: 15
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@65d6b83b]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1708570683 to pool.
