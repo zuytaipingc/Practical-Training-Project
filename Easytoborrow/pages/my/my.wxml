@@ -1,0 +1,25 @@
+<view class="container">
+    <navigator url="/pages/login/login">
+    <view class="header">
+        <image src="/images/xr.png" mode="widthFix" />
+        <text class="title1">
+            注册 / 登录
+        </text>
+        <text class="title2">
+            注册成功后，使用更多功能
+        </text>
+    </view>
+</navigator>
+</view>
+<view class="gongnneg">
+        <view class="optins">
+            <navigator url="/pages/borrow-record/borrow-record">
+            <text class="title1">我的借用记录</text>
+    </navigator>
+
+    <navigator url="/pages/borrow-record/borrow-record">
+            <text class="title2">关于</text>
+        </navigator>
+        </view>
+   
+</view>

@@ -1,0 +1,25 @@
+<!-- 顶部区域 -->
+<view class="top-section">
+  <image src="/images/home_top.jpg" mode="widthFix"></image>
+</view>
+
+<!-- 设备借用和归还选项区域 -->
+<view class="options-section">
+  <button bindtap="goToBorrowPage">
+    <view class="options-wen">
+    <icon type="success_no_circle" size="20"></icon>
+    <text>设备借用</text>
+  </view>
+  </button>
+  <button bindtap="goToReturnPage">
+    <view class="options-wen">
+    <icon type="warn" size="20"></icon>
+    <text>设备归还</text>  
+</view>
+</button>
+</view>
+
+<!-- 底部区域 -->
+<view class="footer">
+  <!-- 这里可以添加底部的内容，如版权信息等 -->
+</view>    
