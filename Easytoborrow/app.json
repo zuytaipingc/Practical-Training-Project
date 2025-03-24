@@ -6,11 +6,12 @@
     "pages/borrow-record/borrow-record"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationBarBackgroundColor": "#0156c0"
   },
 
   "tabBar": {
+    "color":"#666",
+    "selectdColor":"#0156c0",
     "list": [
       {
       "pagePath": "pages/index/index",
