@@ -1,0 +1,129 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main com.css0115.test.ProductMapperTest - getProductListTest pList.size : 0
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 782378927.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main com.css0115.dao.ProductMapper.getProduct - ==>  Preparing: SELECT c.id cid, c.name cname,p.* FROM tb_product_category c,tb_product p WHERE c.id=p.categoryLevel1Id ORDER BY c.id
+DEBUG main com.css0115.dao.ProductMapper.getProduct - ==> Parameters: 
+DEBUG main com.css0115.dao.ProductMapper.getProduct - <==      Total: 12
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 782378927 to pool.
+DEBUG main com.css0115.test.ProductMapperTest - getProductListTest pList.size : 6
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:1  商品类别名称 :食品
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：苹果  商品价格： 5.00  商品库存：100.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：西瓜  商品价格： 2.50  商品库存：500.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：德芙巧克力  商品价格： 5.00  商品库存：100.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:2  商品类别名称 :饮料烟酒
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：可口可乐 500ml  商品价格： 3.00  商品库存：200.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：百事可乐500ml  商品价格： 3.00  商品库存：2000.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：七喜 350ml  商品价格： 2.50  商品库存：51.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:6  商品类别名称 :日配类
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：蒙牛250ml牛奶  商品价格： 3.00  商品库存：200.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:8  商品类别名称 :文体办公
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：晨光中性笔  商品价格： 3.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：得力中性笔  商品价格： 3.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：白雪中性笔  商品价格： 2.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:9  商品类别名称 :五金家电
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：联想笔记本  商品价格： 5000.00  商品库存：20.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:11  商品类别名称 :洗涤日化
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：威猛先生洁厕剂500ml  商品价格： 8.00  商品库存：20.00
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 782378927.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main com.css0115.dao.ProductMapper.getProduct - ==>  Preparing: SELECT c.id cid, c.name cname,p.* FROM tb_product_category c,tb_product p WHERE c.id=p.categoryLevel1Id ORDER BY c.id
+DEBUG main com.css0115.dao.ProductMapper.getProduct - ==> Parameters: 
+DEBUG main com.css0115.dao.ProductMapper.getProduct - <==      Total: 12
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 782378927 to pool.
+DEBUG main com.css0115.test.ProductMapperTest - getProductListTest pList.size : 6
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:1  商品类别名称 :食品
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：苹果  商品价格： 5.00  商品库存：100.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：西瓜  商品价格： 2.50  商品库存：500.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：德芙巧克力  商品价格： 5.00  商品库存：100.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:2  商品类别名称 :饮料烟酒
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：可口可乐 500ml  商品价格： 3.00  商品库存：200.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：百事可乐500ml  商品价格： 3.00  商品库存：2000.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：七喜 350ml  商品价格： 2.50  商品库存：51.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:6  商品类别名称 :日配类
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：蒙牛250ml牛奶  商品价格： 3.00  商品库存：200.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:8  商品类别名称 :文体办公
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：晨光中性笔  商品价格： 3.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：得力中性笔  商品价格： 3.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：白雪中性笔  商品价格： 2.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:9  商品类别名称 :五金家电
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：联想笔记本  商品价格： 5000.00  商品库存：20.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:11  商品类别名称 :洗涤日化
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：威猛先生洁厕剂500ml  商品价格： 8.00  商品库存：20.00
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 782378927.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main com.css0115.dao.ProductMapper.getProduct - ==>  Preparing: SELECT c.id cid, c.name cname,p.* FROM tb_product_category c,tb_product p WHERE c.id=p.categoryLevel1Id ORDER BY c.id
+DEBUG main com.css0115.dao.ProductMapper.getProduct - ==> Parameters: 
+DEBUG main com.css0115.dao.ProductMapper.getProduct - <==      Total: 12
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2ea227af]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 782378927 to pool.
+DEBUG main com.css0115.test.ProductMapperTest - getProductListTest pList.size : 6
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:1  商品类别名称 :食品
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：苹果  商品价格： 5.00  商品库存：100.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：西瓜  商品价格： 2.50  商品库存：500.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：德芙巧克力  商品价格： 5.00  商品库存：100.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:2  商品类别名称 :饮料烟酒
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：可口可乐 500ml  商品价格： 3.00  商品库存：200.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：百事可乐500ml  商品价格： 3.00  商品库存：2000.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：七喜 350ml  商品价格： 2.50  商品库存：51.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:6  商品类别名称 :日配类
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：蒙牛250ml牛奶  商品价格： 3.00  商品库存：200.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:8  商品类别名称 :文体办公
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：晨光中性笔  商品价格： 3.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：得力中性笔  商品价格： 3.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：白雪中性笔  商品价格： 2.00  商品库存：50.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:9  商品类别名称 :五金家电
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：联想笔记本  商品价格： 5000.00  商品库存：20.00
+DEBUG main com.css0115.test.ProductMapperTest - 商品类别ID:11  商品类别名称 :洗涤日化
+DEBUG main com.css0115.test.ProductMapperTest -  -- 商品名称：威猛先生洁厕剂500ml  商品价格： 8.00  商品库存：20.00
