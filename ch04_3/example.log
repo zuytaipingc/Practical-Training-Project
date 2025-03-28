@@ -1,0 +1,42 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.IdCard matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Product matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.ProductCategory matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.Role matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.css0115.pojo.User matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1183888521.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4690b489]
+DEBUG main com.css0115.dao.RoleMapper.getRoleById - ==>  Preparing: SELECT r.id rid, r.roleName , r.roleCode ,u.* FROM tb_role r,tb_user u WHERE r.id=u.userRole AND r.id = ?
+DEBUG main com.css0115.dao.RoleMapper.getRoleById - ==> Parameters: 3(Integer)
+DEBUG main com.css0115.dao.RoleMapper.getRoleById - <==      Total: 8
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4690b489]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4690b489]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1183888521 to pool.
