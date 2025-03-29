@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.css0115.dao.IdCardMapper">
+    <resultMap type="IdCard" id="IdCardById">
+        <id property="id" column="id"/>
+        <result property="code" column="code"/>
+        <!-- 假设这里应该引用 UserMapper 的方法来查询用户信息 -->
+        <association column="uid" property="user" javaType="User" select="com.css0115.dao.UserMapper.findUserById"/>
+    </resultMap>
+
+
+    <select id="findCodeById" parameterType="Integer" resultMap="IdCardById">
+        SELECT * FROM tb_idcard WHERE id=#{id}
+    </select>
+
+
+    <!-- 根据roleId获取用户列表 association start-->
+    <resultMap type="IdCard" id="userRoleResult2">
+        <id property="id" column="cid"/>
+        <result property="code" column="code"/>
+        <association property="user" javaType="User">
+            <id property="id" column="id"/>
+            <result property="userName" column="userName"/>
+        </association>
+    </resultMap>
+
+    <select id="findCodeById2" parameterType="Integer" resultMap="userRoleResult2">
+        SELECT u.* ,c.id cid ,c.code
+        FROM tb_user u, tb_idcard c
+        WHERE u.id=c.uid
+          AND c.uid= #{uid}
+    </select>
+
+</mapper>

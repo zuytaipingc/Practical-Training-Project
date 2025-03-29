@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 加载类路径下的属性文件 -->
+    <properties resource="db.properties"/>
+
+    <!-- 设置 MyBatis 运行时的行为 -->
+    <settings>
+        <!-- 设置resultMap的自动映射级别为FULL（自动匹配所有）-->
+        <setting name="autoMappingBehavior" value="FULL" />
+        <!--打开延迟加载的开关-->
+        <setting name="lazyLoadingEnabled" value="true" />
+        <!--将积极加载改为消息加载，即按需加载-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <!-- 为 Java 类型设置别名 -->
+    <typeAliases>
+        <!-- 方式 1：设置单个别名 -->
+        <typeAlias alias="user" type="com.css0115.pojo.User"/>
+        <!-- 方式 2：设置实体包路径 -->
+        <package name="com.css0115.pojo"/>
+    </typeAliases>
+
+    <!-- 环境配置 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 配置事务管理，采用 JDBC 的事务管理 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- POOLED: MyBatis 自带的数据源，JNDI: 基于 tomcat 的数据源 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- mapping 文件路径配置 -->
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mapper/IdCardMapper.xml"/>
+    </mappers>
+</configuration>
