@@ -1,0 +1,10 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.css0115.dao.StudentMapper">
+    <select id="getAllStudent" resultType="Student">
+        SELECT s.id, s.student_number, s.name, s.gender, s.create_time
+        FROM student s
+                 JOIN teacher_student ts ON s.id = ts.student_id
+        WHERE ts.teacher_id = #{teacherId}
+    </select>
+</mapper>

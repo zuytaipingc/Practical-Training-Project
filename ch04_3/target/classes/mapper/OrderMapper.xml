@@ -1,0 +1,21 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.css0115.dao.OrderMapper">
+    <resultMap type="Order" id="orderlist1">
+        <id property="id" column="id"/>
+        <result property="userName" column="userName"/>
+        <result property="customerPhone" column="customerPhone"/>
+        <result property="userAddress" column="userAddress"/>
+        <collection property="products" ofType="Product" column="id"
+                    select="com.css0115.dao.ProductMapper.getProduct"/>
+    </resultMap>
+
+    <select id="getOrder1" resultMap="orderlist1">
+        SELECT *
+        FROM tb_order
+        <where>
+            <if test="id != null and id > 0">id = #{id}</if>
+        </where>
+        ORDER BY id
+    </select>
+</mapper>

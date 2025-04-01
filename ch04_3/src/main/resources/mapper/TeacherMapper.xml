@@ -1,0 +1,22 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.css0115.dao.TeacherMapper">
+    <resultMap type="Teacher" id="teacherWithStudentsMap">
+        <id property="id" column="id"/>
+        <result property="teacherNumber" column="teacher_number"/>
+        <result property="name" column="name"/>
+        <result property="gender" column="gender"/>
+        <result property="create_time" column="create_time"/>
+        <collection property="students" ofType="Student" column="id"
+                    select="com.css0115.dao.StudentMapper.getAllStudent"/>
+    </resultMap>
+
+    <select id="getAllTeachers" resultMap="teacherWithStudentsMap">
+        SELECT *
+        FROM teacher
+        <where>
+            <if test="teacherId != null and teacherId > 0">id = #{teacherId}</if>
+        </where>
+        ORDER BY id
+    </select>
+</mapper>
