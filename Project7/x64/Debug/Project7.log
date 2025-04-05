@@ -1,0 +1,7 @@
+﻿  cyy.c
+  D:\VS2022\VC\Tools\MSVC\14.36.32532\include\yvals_core.h(28): STL1003: Unexpected compiler, expected C++ compiler.
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\yvals_core.h(29,1): fatal  error C1189: #error:  Error in C++ Standard Library usage
+  sb.c
+  D:\VS2022\VC\Tools\MSVC\14.36.32532\include\yvals_core.h(28): STL1003: Unexpected compiler, expected C++ compiler.
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\yvals_core.h(29,1): fatal  error C1189: #error:  Error in C++ Standard Library usage
+  正在生成代码...
