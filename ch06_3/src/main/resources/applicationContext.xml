@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+<!--    声明一个dao层的对象-->
+    <bean id="UserDao" class="com.css0115.dao.UserDaoImpl">
+    </bean>
+    <bean id="UserService" class="com.css0115.service.UserServiceImpl">
+
+        <property name="userDao" ref="UserDao">
+
+        </property>
+    </bean>
+</beans>
