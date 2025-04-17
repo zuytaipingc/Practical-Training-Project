@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+<!--    头盔装备-->
+    <bean id="armetEquip" class="com.css0115.pojo.Equip">
+        <property name="name" value="战神头盔" />
+        <property name="type" value="头盔" />
+        <property name="speedPlus" value="2" />
+        <property name="attackPlus" value="4" />
+        <property name="defencePlus" value="6" />
+    </bean>
+    <bean id="loricaeEquip" class="com.css0115.pojo.Equip">
+        <property name="name" value="振奋铠甲" />
+        <property name="type" value="铠甲" />
+        <property name="speedPlus" value="6" />
+        <property name="attackPlus" value="4" />
+        <property name="defencePlus" value="15" />
+    </bean>
+    <bean id="bootEquip" class="com.css0115.pojo.Equip">
+        <property name="name" value="速度之靴" />
+        <property name="type" value="靴子" />
+        <property name="speedPlus" value="8" />
+        <property name="attackPlus" value="2" />
+        <property name="defencePlus" value="3" />
+    </bean>
+    <bean id="ringEquip" class="com.css0115.pojo.Equip">
+        <property name="name" value="多兰之戒" />
+        <property name="type" value="指环" />
+        <property name="speedPlus" value="8" />
+        <property name="attackPlus" value="12" />
+        <property name="defencePlus" value="2" />
+    </bean>
+<!--    创建玩家对象-->
+    <bean id="player" class="com.css0115.pojo.Player">
+<!--        调用setArmet()方法为armet属性赋值，赋值为对象引用-->
+        <property name="armet" ref="armetEquip" />
+        <property name="loricae" ref="loricaeEquip" />
+        <property name="boot" ref="bootEquip" />
+        <property name="ring" ref="ringEquip" />
+    </bean>
+</beans>
