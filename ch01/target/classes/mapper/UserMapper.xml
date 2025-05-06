@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.css24P1080910115.dao.UserMapper">
+    <!-- 查询用户表记录数 -->
+    <select id="count" resultType="int">
+        SELECT count(1)
+        FROM tb_user
+    </select>
+
+
+    <select id="getUserListById" parameterType="Integer" resultType="com.css24P1080910115.pojo.User">
+        SELECT * FROM tb_user WHERE id = #{id}
+
+
+    </select>
+    <!--根据用户名模糊查询用户信息列表-->
+    <select id="getUserListByName" parameterType="String" resultType="com.css24P1080910115.pojo.User">
+        SELECT * FROM tb_user WHERE userName LIKE '%${userName}%'
+    </select>
+    <!-- 增加用户 -->
+    <insert id="add" parameterType="com.css24P1080910115.pojo.User">
+        insert into tb_user (userCode,userName,userPassword,gender,
+                                birthday,phone,address,userRole,createdBy,creationDate)
+        values (#{userCode},#{userName},#{userPassword},#{gender},#{birthday},
+                #{phone},#{address},#{userRole},#{createdBy},#{creationDate})
+    </insert>
+</mapper>
