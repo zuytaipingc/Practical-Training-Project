@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.css0115.dao.UserMapper">
+    <!-- 查询用户列表 -->
+    <select id="getUserList" resultType="User">
+        SELECT u.*,r.roleName userRoleName
+        FROM tb_user u,tb_role r
+        WHERE u.userName like CONCAT ('%',#{userName},'%')
+          AND u.userRole = #{userRole} and u.userRole = r.id
+    </select>
+
+    <select id="getUserList2" resultType="User">
+        select u.*,r.roleName as userRoleName from tb_user u,tb_role r
+            where u.userRole = r.id
+        <if test="userName != null and userName != ''">
+        and u.userName like concat('%',#{userName},'%')
+        </if>
+        <if test="userName != null and userName != ''">
+            and u.userName like CONCAT ('%',#{userName},'%')
+        </if>
+    </select>
+
+    <select id="getUserList3" resultType="User">
+
+        select *
+        from tb_user where 1=1
+        <if test="userName != null and userName != ''">
+        and userName like concat('%',#{userName},'%')
+        </if>
+        <if test="userRole != null">
+
+        and userRole = #{userRole}
+        </if>
+
+    </select>
+
+    <select id="getUserList4" resultType="User">
+        select * from tb_user
+        <where>
+            <if test="userName != null and userName != ''">
+                and userName like CONCAT ('%',#{userName},'%')
+            </if>
+            <if test="userRole != null">
+                and userRole = #{userRole}
+            </if>
+        </where>
+    </select>
+
+    <select id="getUserList5" resultType="User">
+        select * from tb_user
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="userName != null and userName != ''">
+                and userName like CONCAT ('%',#{userName},'%')
+            </if>
+            <if test="userRole != null">
+                and userRole = #{userRole}
+            </if>
+        </trim>
+    </select>
+
+    <!-- 查询用户列表(choose) -->
+    <select id="getUserListChoose" resultType="User">
+        select * from tb_user
+        <trim prefix="WHERE" prefixOverrides="AND ">
+            <choose>
+                <when test="userName != null and userName != ''">
+                    userName like CONCAT ('%',#{userName},'%')
+                </when>
+                <when test="userCode != null and userCode != ''">
+                    userCode like CONCAT ('%',#{userCode},'%')
+                </when>
+                <when test="userRole != null">
+                    userRole = #{userRole}
+                </when>
+                <otherwise>
+                    YEAR(creationDate) = YEAR(#{creationDate})
+                </otherwise>
+            </choose>
+        </trim>
+    </select>
+
+    <update id="modify" parameterType="User">
+        update tb_user
+        set userCode=#{userCode},userName=#{userName},userPassword=#{userPassword},
+            gender=#{gender},birthday=#{birthday},phone=#{phone}, address=#{address},
+            userRole=#{userRole},modifyBy=#{modifyBy},modifyDate=#{modifyDate}
+        where id = #{id}
+    </update>
+
+
+    <update id="modify2" parameterType="User">
+        update tb_user
+        <set>
+        <if test="userCode != null">userCode=#{userCode},</if>
+        <if test="userName != null">userName=#{userName},</if>
+        <if test="userPassword != null">userPassword=#{userPassword},</if>
+        <if test="gender != null">gender=#{gender},</if>
+        <if test="birthday != null">birthday=#{birthday},</if>
+        <if test="phone != null">phone=#{phone},</if>
+        <if test="address != null">address=#{address},</if>
+        <if test="userRole != null">userRole=#{userRole},</if>
+        <if test="modifyBy != null">modifyBy=#{modifyBy},</if>
+        <if test="modifyDate != null">modifyDate=#{modifyDate},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <update id="modify3" parameterType="User">
+        update tb_user
+        <trim prefix="set" suffixOverrides="," suffix="where id = #{id}">
+            <if test="userCode != null">userCode=#{userCode},</if>
+            <if test="userName != null">userName=#{userName},</if>
+            <if test="userPassword != null">userPassword=#{userPassword},</if>
+            <if test="gender != null">gender=#{gender},</if>
+            <if test="birthday != null">birthday=#{birthday},</if>
+            <if test="phone != null">phone=#{phone},</if>
+            <if test="address != null">address=#{address},</if>
+            <if test="userRole != null">userRole=#{userRole},</if>
+            <if test="modifyBy != null">modifyBy=#{modifyBy},</if>
+            <if test="modifyDate != null">modifyDate=#{modifyDate},</if>
+        </trim>
+    </update>
+
+    <select id="getUserByArray" resultType="User">
+        select  * from tb_user where userRole in
+            <foreach collection="array" open="(" item="roleId" separator="," close=")">
+                #{roleId}
+            </foreach>
+    </select>
+
+    <select id="getUserByList" resultType="User">
+        select * from tb_user where userRole in
+                <foreach collection="list" open="(" close=")" separator="," item="roleId">
+                    #{roleId}
+                </foreach>
+    </select>
+
+    <select id="getUserByMap" resultType="User">
+        select * from tb_user
+        where gender = #{gender} and userRole in
+        <foreach collection="roleIds" item="roleMap" open="(" separator="," close=")">
+            #{roleMap}
+        </foreach>
+    </select>
+
+
+
+    <select id="findUserByName" resultType="User" parameterType="User">
+        <bind name="user_name_concat" value="'%'+_parameter.getUserName()+'%'" />
+        select * from tb_user
+        where username like #{user_name_concat}
+    </select>
+</mapper>
