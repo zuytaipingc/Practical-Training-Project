@@ -31,7 +31,7 @@ public class UserController {
     /**
      * 向用户注册页面跳转
      */
-    @GetMapping("/toRegister")
+    @RequestMapping("/toRegister")
     public String toRegister( ) {
         return "register";
     }
@@ -39,16 +39,37 @@ public class UserController {
     /**
      * 接收用户注册信息
      */
-    @PostMapping("/registerUser")
-
+    @RequestMapping("/registerUser")
     public String registerUser(User user) {
-//        String username = user.getUsername();
-//        Integer password = user.getPassword();
-//        System.out.println("username="+username);
-//        System.out.println("password="+password);
-        System.out.println(user.getUsername());
-        System.out.println(user.getPassword());
+        String username = user.getUsername();
+        Integer password = user.getPassword();
+        System.out.println("username="+username);
+        System.out.println("password="+password);
         return "success";
     }
+    /**
+     * 向用户列表页面跳转
+     */
+    @RequestMapping("/toUser")
+    public String selectUsers( ) {
+        return "user";
+    }
+
+    /**
+     * 接收批量删除用户的方法
+     */
+    @RequestMapping("/deleteUsers")
+    public String deleteUsers(Integer[] ids) {
+        if(ids !=null){
+            for (Integer id : ids) {
+                // 使用输出语句模拟已经删除了用户
+                System.out.println("删除了id为"+id+"的用户！");
+            }
+        } else {
+            System.out.println("ids=null");
+        }
+        return "success";
+    }
+
 
 }
